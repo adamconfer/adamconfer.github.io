@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Power BI Practice</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				
+				<header>
+					<h1><a href="index.html"><u>Adam Confer Portfolio</u></a></h1>
+					<br>
+					<span class="w3-round"><img src="images/power_bi.jpg" alt="" style="width:86%;" /></span>
+					<h1 id="logo"><a href="#">Power BI Practice</a></h1>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">Introduction</a></li>
+						<li><a href="#two" class="active">Bar Charts</a></li>
+						<li><a href="#three">Area Chart with Slicers</a></li>
+						<li><a href="#four">Europe Sales Dashboard</a></li>
+						<li><a href="#five">Bank Demographics Dashboard</a></li>
+						<li><a href="#six">Conclusion</a></li>
+
+					</ul>
+				</nav>
+				
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="images/collage1.jpg" alt="" />
+								</div>
+								<div class="container">
+									
+									<header class="major">
+										<h2>Power BI Practice</h2>
+									</header>
+									<p>
+										After finishing the Google Data Analytics certification, the only visualizations tool I was comfortable with was Tableau. While looking
+                                        around, I noticed that Microsoft Power BI was another popular tool for creating similar visualizations. I decided to take a course on Udemy 
+                                        that teaches you how to use this software. In the following sections I'll be including some charts and dashboards along with a 
+                                        screenshot of the data used to make them.
+									</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3>Bar Charts</h3>
+									<p>
+										The data pictured below contians information on sales representatives and the items they have sold. Despite only containing seven columns,
+                                        there's a suprising amount of insight that this data can provide.  
+                                        <br><br>
+                                        <img src="images/sales_by_region_bar.jpg" style="width:80%;">
+                                        <br><br>
+										I created a lot of bar charts but I found the ones pictured below to be particulary interesting. The first charts shows the number of units
+                                        sold for each representative.
+                                        <br><br>
+                                        <img src="images/units_sold_sales_rep.jpg" style="width:80%;">
+                                        <br><br>
+                                        The second chart shows the total sales for each sales representative. 
+                                        <br><br>
+                                        <img src="images/total_sales_sales_rep.jpg" style="width:80%;">
+                                        <br><br>
+                                        I found these two charts interesting because it shows how data can be misleading at first glance. If someone only saw the first chart, it 
+                                        would be easy to assume that Richard is making the most sales. After all, he's selling the most product, right? Upon looking at 
+                                        the second chart, they would realize that Richard is not even in the top three when it comes to total sales. I think this is an important
+                                        lesson when it comes to data. It's crucial to look a little deeper than what's being presented on the surface.   
+									</p>
+								</div>
+							</section>
+
+						<!-- Three -->
+						<section id="three">
+							<div class="container">
+								<h3>Area Chart with Slicers</h3>
+								<p>
+									The data shown below contains information on unemployment for different age groups. What's most interesting about this data is how it's 
+                                    presented. In spreadsheet format, it is very hard to interpret and is not "human friendly". However, for Power BI, this format works perfect
+                                    for making visualizations. 
+                                    <br><br>
+									<img src="images/unemployment_data.jpg" style="width:80%;">
+									<br><br>
+                                    The below area graph shows the number of unemployed for each age group. 
+									<br><br>
+									<img src="images/unemployed_year.jpg" style="width:110%;">
+									<br><br>
+                                    This graph is particularly useful because the data changes with the slicers. I'll include some examples below.
+                                    <br><br>
+                                    <img src="images/slice_1.jpg" style="width:110%;">
+                                    <img src="images/slice_2.jpg" style="width:110%;">
+                                    <img src="images/slice_3.jpg" style="width:110%;">
+                                    <br><br>
+                                    While the area charts shown above are informative and insightful, I find the focal point of this section to be the slicer feature. This feature
+                                    allows for intuitive filtering that can allow stakeholders to answer their own questions. Instead of creating many charts and graphs for each 
+                                    use case, Power BI enables us to create one interactive chart. The functionality of this feature allows for unlimited possibilities and cannot
+                                    be overstated.
+								</p>
+							</div>
+						</section>
+
+						<!-- Four -->
+						<section id="four">
+							<div class="container">
+								<h3>Europe Sales Dashboard</h3>
+								<p>
+									For this dashboard I had to join two datasets (shown below): ListOfOrders and OrderBreakdown. ListOfOrders has information on
+                                    each individual order like order number, customer name, shipping date, etc. Each order can have multiple products included.  
+                                    OrderBreakdown contains data on what is inside each order along with the price and profit for each item. Since each order was distinct
+                                    in ListOfOrders and reoccuring for each item in OrderBreakdown, I joined them on a one-to-many relationship. 
+									<br><br>
+									<img src="images/eu_sale_info.jpg" style="width:110%;">
+                                    <img src="images/eu_sales_num.jpg" style="width:80%;">
+									<br><br>
+                                    Below is the dashboard that shows information on the sales for each country. 
+									<br><br>
+                                    <img src="images/eu_sales_dashboard.jpg" style="width:120%;">
+									<br><br>
+									This dashboard displays a lot of important information that would be valued by any stakeholder. The map graph shows the sales for each country.
+                                    The circle size increases as the sales increases and the color satures red when the profit margin decreases. 
+                                    This dashboard can be interacted with in multiple ways. First, the slicers can be used to filter the data based off of the region and 
+                                    order date. Next, the year can be changed and selected in the donut graph. Lastly, the country can be selected to make the other graphs
+                                    more specific. I will include some examples below. 
+									<br><br>
+                                    <img src="images/eu_sales_ex_1.jpg" style="width:120%;">
+                                    <img src="images/eu_sales_ex_2.jpg" style="width:120%;">
+                                    <img src="images/eu_sales_ex_3.jpg" style="width:120%;">
+									<br><br>
+									Once again, I think that this dashboard is very powerful with all of the interactive features provided by Power BI. A dashboard like this one 
+                                    allows stakeholders to explore important demographics which can lead to further insights. 
+								</p>
+							</div>
+						</section>
+
+						<!-- Five -->
+						<section id="five">
+							<div class="container">
+								<h3>Bank Demographics Dashboard</h3>
+								<p>
+									This dashbaord only uses one dataset. The dataset includes banking information for people in England, Scotland, Wales, and Northern Ireland. 
+                                    <br><br>
+                                    Disclaimer: This is a fictional dataset. No REAL personal data is being comprimised.  
+									<br><br>
+                                    <img src="images/bank_dashboard_data.jpg" style="width:90%;">
+									<br><br>
+                                    The dashboard shows a variety of important information pertaining to the bank's customers like their age, gender, and job type. 
+									<br><br>
+                                    <img src="images/bank_dashboard_base.jpg" style="width:120%;">
+									<br><br>
+                                    This dashboard does not contain any slicers but 
+                                    it still has many interactive features. For example, the region, age and gender graphs can be selected to make the data more specific. I will include some examples below.
+                                    <br><br>
+                                    <img src="images/bank_dash_ex_1.jpg" style="width:120%;">
+                                    (Results for England only.)
+                                    <img src="images/bank_dash_ex_2.jpg" style="width:120%;">
+                                    (Results for Female only.)
+                                    <img src="images/bank_dash_ex_3.jpg" style="width:120%;">
+                                    (Results for Blue Collar only.)
+									<br><br>
+                                    Like the previous dashboard, this one contains a lot of important information that can be used by a stakeholder to make data-driven decisions. 
+                                    Having access to an interactive dashboard with all of a banks demographic information is extremely valuable. 
+								</p>
+							</div>
+						</section>
+
+						<!-- Six -->
+						<section id="six">
+							<div class="container">
+								<h3>Conclusion</h3>
+								<p>
+									In this "mini project" I have only explored the surface of what can be done with Power BI. I found the graphs and charts to be very intuitive
+                                    and simple to design. Once I learned how to format properly, it was simple to change the titles and designs of my visualizations. 
+                                    Being able to add slicers makes dashboards easy to filter and comprehend. Because this tool is so user-friendly, 
+                                    it would not take long to teach a stakeholder to use it. Power BI is a very powerful visulization tool that I will
+                                    continue to use as a Data Analyst. 
+
+                                    <br><br>
+                                    <h1> <a href="index.html" ><- Return Home</h1>
+								</p>
+							</div>
+						</section>
+
+							
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; AdamConfer. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
